@@ -34,3 +34,14 @@ The code is written in Python and is divided into the following sections:
 7. Model Evaluation: The model is evaluated using confusion matrix and accuracy score on the test data.
 
 8. Exporting Model Output: Model predictions along with probabilities are written to an Excel file ("ModelOutput_Train.xlsx").
+
+## Excel file Overview
+After building the logistic regression model, the Excel file ("ModelOutput_Train.xlsx") provides additional insights and recommendations based on the model's predictions:
+
+1. Decile Method: We use a decile method to divide the customers based on their predicted probabilities of making a purchase. This method creates ten groups or deciles of customers ranked by their probability scores.
+
+2. Customer Ranking: The top 10% of customers are ranked as 1, the next 10% as 2, and so on for all customers.
+
+3. Profit Optimization: We determine the probability threshold that maximizes profit.
+   
+
