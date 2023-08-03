@@ -1,4 +1,4 @@
-# Loyalty Program Data Analysis using Logistic Regression
+# Analytics Based Marketing
 
 This repository contains code for analyzing the data of a loyalty program run by ABC Supermarket. In this program, promotional kits were given to 10% of customers, and it was recorded whether they made a purchase or not using logistic regression.
 
